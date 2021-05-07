@@ -8,8 +8,8 @@ const Portfolio = () => {
   <Layout>
     <Seo title="Portfolio" /> 
     <div>
-      <h1>Teaching Portfolio</h1>
-      <p>PLANNING - ENVIRONMENT - INSTRUCTION - DEVELOPMENT</p>
+      <h1>DOMAINS</h1>
+      <p>Planning/Prep, Env, Instruction, Prof Dev</p>
     </div>
     <Link to="/">Back to HOME</Link>
   </Layout>
