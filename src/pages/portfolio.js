@@ -13,6 +13,7 @@ const Portfolio = () => {
     </div>
     <Link to="/">Back to HOME</Link>
   </Layout>
+  
 }
 
 export default Portfolio
