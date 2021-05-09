@@ -6,11 +6,8 @@ import Seo from "../components/seo"
 
 const Research = () => {
   <Layout>
-    <Seo title="Research" /> 
-    <div>
+    <Seo title="Research" />
       <h1>Publications</h1>
-      <p>articles, books, reviews...</p>
-    </div>
     <Link to="/">Back to HOME</Link>
   </Layout>
 }
