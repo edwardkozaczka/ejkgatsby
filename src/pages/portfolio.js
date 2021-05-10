@@ -4,13 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Portfolio = () => {
+const Portfolio = () => (
   <Layout>
     <Seo title="Portfolio" />
-      <h1>DOMAINS</h1>
-      <p>Planning/Prep, Env, Instruction, Prof Dev</p>
-    <Link to="/">Back to HOME</Link>
+    <h1>Hi from the portfolio page</h1>
+    <p>Welcome to page 2</p>
+    <Link to="/">Go back to the homepage</Link>
   </Layout>
-}
+)
 
 export default Portfolio
