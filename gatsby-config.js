@@ -1,7 +1,7 @@
 export const siteMetadata = {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Edward Kozaczka | Teaching Portfolio`,
+    description: `Professional teaching portfolio featuring credentials for Pennsylvania Secondary Education, English Language Arts, grades 7-12.`,
+    author: `Edward Kozaczka`,
 };
 export const plugins = [
     `gatsby-plugin-react-helmet`,
@@ -18,13 +18,13 @@ export const plugins = [
     {
         resolve: `gatsby-plugin-manifest`,
         options: {
-            name: `gatsby-starter-default`,
-            short_name: `starter`,
+            name: `kozaczka-teaching-portfolio`,
+            short_name: `portfolio`,
             start_url: `/`,
-            background_color: `#663399`,
-            theme_color: `#663399`,
+            background_color: `#0b241d`,
+            theme_color: `#0b241d`,
             display: `minimal-ui`,
-            icon: `src/images/gatsby-icon.png`,
+            icon: `src/images/aelius-icon.png`,
         },
     },
     `gatsby-plugin-gatsby-cloud`,
