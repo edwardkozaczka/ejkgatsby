@@ -7,12 +7,13 @@ export const plugins = [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-            name: `images`,
-            path: `${__home/cabox/workspace}/src/images`,
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
         },
     },
+],
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
